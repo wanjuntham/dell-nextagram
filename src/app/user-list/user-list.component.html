@@ -1,10 +1,9 @@
-<div id="top-nav"></div>
 <div id="container">
-  <div class="card" *ngFor="let user of users">
-    <app-user-card
-      [id]="user.id"
-      [username]="user.username"
-      [profileImage]="user.profileImage"
-    ></app-user-card>
-  </div>
+<div class="card" *ngFor="let user of users">
+  <app-user-card
+    [id]="user.id"
+    [username]="user.username"
+    [profileImage]="user.profileImage"
+  ></app-user-card>
+</div>
 </div>
