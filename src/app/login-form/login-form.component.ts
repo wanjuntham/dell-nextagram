@@ -17,7 +17,5 @@ export class LoginFormComponent implements OnInit {
 
   ngOnInit() {}
 
-  onSubmit() {
-    this.userService.submitLogin(this.loginForm.value)
-  }
+  onSubmit() {}
 }

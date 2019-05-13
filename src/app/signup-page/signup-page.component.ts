@@ -17,8 +17,5 @@ export class SignupPageComponent implements OnInit {
 
   ngOnInit() {}
 
-  onSubmit() {
-    const data = this.signupForm.value
-    this.service.submitSignUp(data)
-  }
+  onSubmit() {}
 }
